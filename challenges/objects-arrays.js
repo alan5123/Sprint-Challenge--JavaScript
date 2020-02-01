@@ -79,7 +79,7 @@ Once you have the new array created, sort the universities alphabetically and lo
 const universities = [];
 for(let i = 0; i < graduates.length; i++){
   universities.push(graduates[i].university)
-  universities.sort
+  universities.sort()
 }
 console.log(universities);
 
@@ -139,7 +139,7 @@ The zoos need a list of all their animal's names (animal_name only) converted to
 
 */
 
-let lowCaseAnimalNames = [];
+
 let lowCaseAnimalNames = zooAnimals.map(function(currentValue){
 return currentValue.animal_name.toLowerCase();
 }
